@@ -1,0 +1,15 @@
+﻿Library.zip
+This file contains all the php files. This file could be imported into XAMP “htdocs” folder to establish the project environment.
+
+Library.sql
+Contains all the table create queries and the insert queries. Could be imported into a MySQL database
+
+Report.docx
+Contains the dependency details
+
+USER_MANUAL.pdf
+Instructions about the functionalities
+
+
+for DATA_CLEANING 
+python and R files are included in DATA_CLEANING folder

@@ -1,0 +1,5 @@
+duplicate_authors <- read.csv("split_authors_duplicate.csv")
+distinct_author$author_id <- seq.int(nrow(distinct_author))
+duplicate_authors <- read.csv("split_author.csv")
+data2 <- merge(x = isbn_authors, y = distinct_author, by = "Author")
+write.csv(data2,file = "data2.csv")
